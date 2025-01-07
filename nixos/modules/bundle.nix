@@ -7,7 +7,8 @@
     ./hyprland.nix
     ./xserver.nix
     ./services.nix
-    #./sound.nix
-    #./bluetooth.nix
+    ./sound.nix
+    ./bluetooth.nix
+    ./portals.nix
   ];
 }

@@ -15,6 +15,15 @@
     nemo
 
     #utils
+    (pkgs.catppuccin-sddm.override {
+      flavor = "macchiato";
+      font  = "Noto Sans";
+      fontSize = "9";
+      #background = "${./wallpaper.png}";
+      loginBackground = true;
+    })
+    blueman
+    pavucontrol
     unzip
     brightnessctl
     libnotify
@@ -34,8 +43,10 @@
     prisma-engines
     docker
     nodejs_20
+    bun
 
     #programs
+    flameshot
     google-chrome
     postman
     spotify
@@ -48,6 +59,7 @@
     vim
     tmux
     lazygit
+    lazydocker
     vscode
     obsidian
   ];

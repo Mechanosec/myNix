@@ -1,7 +1,7 @@
 {
   services.xserver = {
     enable = true;
-    videoDrivers = [ "intel" ];
+   # videoDrivers = [ "intel" ];
     xkb = {
       layout = "us";
       variant = "";

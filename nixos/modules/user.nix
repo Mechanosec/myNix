@@ -7,7 +7,7 @@
     users.mechanosec = {
       isNormalUser = true;
       description = "mechanosec";
-      extraGroups = [ "networkmanager" "wheel" ];
+      extraGroups = [ "networkmanager" "wheel" "docker" ];
       packages = with pkgs; [];
     };
   };

@@ -53,6 +53,7 @@
     shellAliases = {
       yy = "yazi";
       vi = "nvim";
+      pc-wifi = "node ~/utils/commands/wifi-cli.js";
       pc-temp = "tlp-stat -t";
       pc-power = "upower -i /org/freedesktop/UPower/devices/battery_BAT0";
     };
