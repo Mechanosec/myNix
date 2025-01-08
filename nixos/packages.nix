@@ -8,6 +8,7 @@
     wofi
     dunst
     wl-clipboard
+    cliphist
     hyprlock
     hypridle
     hyprpaper

@@ -9,6 +9,11 @@
     # ];
   };
 
+  services.flameshot = {
+  enable = true;
+  package = flameshotGrim;
+};
+
   home.pointerCursor = {
     gtk.enable = true;
   #   # x11.enable = true;
